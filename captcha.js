@@ -2,7 +2,7 @@
 var captchacontainer=document.getElementById("captcha_container")
 var characters='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 var captcha=""
-for (count=0;count<5;count=count+1)
+for (var count=0;count<5;count=count+1)
 {
 var randomindex=Math.floor(Math.random()*characters.length)
 captcha += characters[randomindex]
